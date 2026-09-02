@@ -1,0 +1,68 @@
+ body {
+     background-color: #cedbe0;
+     color: #040fef;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+
+ header h1 {
+     color: #000000;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #0040ff;
+     margin: 0 15px;
+ }
+
+ section,
+ aside {
+     background-color: #9cbaed;
+     padding: 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     display: inline-block;
+     text-align: left;
+ }
+
+ section h2,
+ section h3,
+ aside h3 {
+     color: #060606;
+ }
+
+ table {
+     background-color: #090909;
+     color: antiquewhite;
+     border-radius: 10px;
+     padding: auto;
+ }
+
+ img {
+     width: 450px;
+     border-radius: 20px;
+     display: block;
+     margin: 10px auto;
+ }
+
+ footer {
+     text-align: center;
+     padding: 15px;
+     background-color: #111111;
+     color: #FFFFFF;
+ }
+
+ a {
+     color: #0a0a0a;
+ }
+ fieldset{
+    background-color:rgb(1, 1, 1) ;
+    border-radius: 15px;
+    color: aliceblue;
+ }
+ aside{
+   display: block;
+   text-align: center;
+   color: #000000;
+   background-color: #9cbaed;;
+ }

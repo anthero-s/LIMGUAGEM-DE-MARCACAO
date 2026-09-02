@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tela de Correção e Avaliação de Redações</title>
+</head>
+<body>
+  <header>
+    <h1>Tela de Correção e Avaliação de Redações</h1>
+    <nav>
+      <a href=""></a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Editor da Redação</h2>
+      <label for="aluno">Nome do(a) aluno(a):</label>
+      <input id="aluno" type="text" placeholder="Nome do aluno"><br><br>
+
+      <label for="tema">Tema:</label>
+      <input id="tema" type="text" placeholder="Tema da redação"><br><br>
+
+      <label for="texto">Texto do aluno:</label><br>
+      <textarea id="texto" rows="10" cols="80" placeholder="Redação do aluno(a)..."></textarea><br><br>
+
+      <label for="observacoes">Observações do corretor:</label><br>
+      <textarea id="observacoes" rows="5" cols="80" placeholder="Comentários e sugestões..."></textarea><br><br>
+    </section>
+
+    <section>
+      <h2>Avaliação</h2>
+      <p>Use os controles abaixo para avaliar cada critério de 0 a 10.</p>
+
+      <label for="coerencia">Coerência e Coesão:</label>
+      <input id="coerencia" type="number" min="0" max="10" step="0.5"><br><br>
+
+      <label for="argumentacao">Argumentação:</label>
+      <input id="argumentacao" type="number" min="0" max="10" step="0.5"><br><br>
+
+      <label for="estrutura">Estrutura:</label>
+      <input id="estrutura" type="number" min="0" max="10" step="0.5"><br><br>
+
+      <label for="gramatica">Gramática e Ortografia:</label>
+      <input id="gramatica" type="number" min="0" max="10" step="0.5"><br><br>
+
+      <label for="originalidade">Originalidade e Vocabulário:</label>
+      <input id="originalidade" type="number" min="0" max="10" step="0.5"><br><br>
+
+      <button type="submit">Calcular Nota</button>
+      <button type="reset">Limpar</button><br><br>
+
+      <h3>Resultado</h3>
+      <p>Nota: __________</p>
+      <p>Nível: __________</p>
+      <p>Resumo: ____________________________________________</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Anthero. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

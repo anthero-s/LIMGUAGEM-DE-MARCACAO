@@ -1,0 +1,34 @@
+h1{
+    color: rgb(255, 2, 183);
+}
+
+.alerta{
+    color: red;
+    font-weight: bold;
+}
+
+#cabecalho-principal{
+    background-color: black;
+    color: white;
+}
+
+.ola{
+    color: black;
+    padding:10px 20px 10px 20px ;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+footer a {
+    background-color: bisque;
+    padding: 20px 5px 20px 5px;
+}
+
+footer p{
+    background-color: rgb(255, 102, 0);
+}
+
+span{
+    color: black;
+}
+

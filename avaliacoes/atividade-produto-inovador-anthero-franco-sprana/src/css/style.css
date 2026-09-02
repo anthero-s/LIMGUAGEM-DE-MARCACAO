@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .
+}
+
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(255, 255, 17);
+  color: black;
+  border-radius: 20px;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #070707;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+section>h2 {
+  background-color: #1851ff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+
+.imagem1 {
+  max-width: 100%;
+  border: 10px solid rgb(255, 255, 17);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.imagem2 {
+  max-width: 100%;
+  border-radius: 40px;
+}
+
+table {
+  width: 100%;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+
+th+td {
+  padding: 0.5rem;
+}
+
+
+
+
+.visu th {
+  background-color: #1851ff;
+  border-radius: 20px;
+}
+
+aside {
+  padding: 1rem;
+  background-color: rgb(255, 255, 17);
+  text-align: center;
+  margin: 1rem;
+  border-radius: 20px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none
+}
+
+.titulo {
+  text-transform: uppercase;
+}
+
+#comprar {
+  background-color: rgb(255, 255, 17);
+  color: #000000;
+  border-radius: 20px;
+  margin: 2rem;
+}
